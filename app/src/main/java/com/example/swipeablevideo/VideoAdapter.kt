@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_video.view.*
 
-class VideoAdapter(var arrVideo: ArrayList<VideoModel>) :
+class VideoAdapter(private var arrVideo: ArrayList<VideoModel>) :
     RecyclerView.Adapter<VideoAdapter.VideoViewHolder>() {
 
 

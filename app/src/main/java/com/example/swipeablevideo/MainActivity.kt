@@ -5,8 +5,8 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    var arrVideoModel = ArrayList<VideoModel>()
-    var videoAdapter: VideoAdapter? = null
+    private var arrVideoModel = ArrayList<VideoModel>()
+    private var videoAdapter: VideoAdapter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
